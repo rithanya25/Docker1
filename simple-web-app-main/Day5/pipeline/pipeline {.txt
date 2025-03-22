@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('scm') {
             steps {
-        git branch: 'main' url:'https://github.com/rithanya25/Docker1.git' 
+        git branch: 'main', url:'https://github.com/rithanya25/Docker1.git' 
             }
         }
         stage('builb-clean') {
